@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/headerComponent/header';
+import Home from './components/home';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+import { createGlobalStyle } from "styled-components";
+const GlobalStyles = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap');
+  body {
+    font-family: 'Rubik', sans-serif;
+  }
+`
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <GlobalStyles />
+        <Header></Header>
+        <Home></Home>
     </div>
   );
 }
