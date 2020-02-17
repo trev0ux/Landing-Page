@@ -1,8 +1,7 @@
 import React from 'react';
 import { Logo } from '../../styles';
-import { Nav } from '../../styles';
+import { Nav, StyledButton } from '../../styles';
 import logo from '../../images/logo-bookmark.svg';
-import { Button } from 'react-bootstrap';
 
 export const Header = () => {
     return (
@@ -13,16 +12,16 @@ export const Header = () => {
             </Logo>
                 <ul>
                 <li>
-                    <Button variant="outline-danger">Login</Button>{' '}
+                    <StyledButton variant="outline-danger">Login</StyledButton>{' '}
                     </li>
                     <li>
-                    <a href="#">Features</a>
+                    <a href="#">Contact</a>
                     </li>
                     <li>
                     <a href="#">Pricing</a>
                     </li>
                     <li>
-                    <a href="#">Contact</a>
+                    <a href="#">Features</a>
                     </li> 
                 </ul>
             </Nav>
