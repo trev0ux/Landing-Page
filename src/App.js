@@ -3,6 +3,7 @@ import Header from './components/headerComponent/header';
 import Home from './components/home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Line from './components/textSection';
+import TabsSection from './components/tabs';
 import { createGlobalStyle } from "styled-components";
 
 
@@ -21,6 +22,7 @@ function App() {
         <Header></Header>
         <Home></Home>
         <Line />
+        <TabsSection />
     </div>
   );
 }
