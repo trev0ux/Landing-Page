@@ -23,8 +23,10 @@ export const CardSection = styled(Card)`
     color:#2a2f4d ;
     }
 
-    a{
-        width: 100%;
+    img{
+        position: relative;
+        right: 18px;
+        display: inline-block;
     }
 
 `;
@@ -47,6 +49,12 @@ export const ButtonAdd = styled(Button)`
     font-weight: 500;
     letter-spacing: -0.05em;
     margin-top: 12px;
+
+    &:hover {
+        color: #5266df;
+        background: #fff;
+        border: 2px solid;
+    }
 `;
 
 export const Navigator = styled(Card.Img)`
@@ -99,15 +107,15 @@ export const Logo = styled.h1`
 export const ButtonHome = styled.button`
   display: inline-block;
   color: #5f69a4;
-  font-size: 15px;
-  padding: 1em 1.5em;
+  font-size: 16px;
+  padding: .8em 1.8em;
   border: 2px solid;
   border-color: #5f69a4;
   border-radius: 5px;
   display: block;
   background: transparent;
   position: absolute;
-  font-weight: 600;
+  font-weight: 500;
 `;
 
 export const ButtonViolet = styled(ButtonHome)`
@@ -177,7 +185,7 @@ export const TextSection = styled(Text)`
     width: 600px;
     top: 0;
 h1{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 38px;
 }   
 `;

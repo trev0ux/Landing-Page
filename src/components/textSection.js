@@ -42,4 +42,26 @@ export const Line = function() {
          
         )
       };
+
+      export const Line3 = function() {
+        return (
+            <div>
+                
+                    <Row>
+                        <ColText>
+                        <TextSection>
+                        <br/>
+                        <br/>
+                        <br/>
+                                <Title title={["Frequently Asked Questions"]}></Title>
+                                <Paragraph paragraph={[" Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us." ]}></Paragraph>
+                            </TextSection>
+                        </ColText>
+                    </Row>
+      </div>
+           
+          )
+        };
+      
     
+        
