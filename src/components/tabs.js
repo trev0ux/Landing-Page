@@ -1,6 +1,6 @@
 import { TextTab, RectangleLeft, Img, RowCenter, ButtonTab, TabsStyled } from '../styles';
 import React, { Component } from 'react';
-import { Col, Container, Row, Tab } from 'react-bootstrap';
+import { Col, Row, Tab } from 'react-bootstrap';
 import image from '../images/illustration-features-tab-1.svg';
 import image2 from '../images/illustration-features-tab-2.svg';
 import image3 from '../images/illustration-features-tab-3.svg';
@@ -13,7 +13,6 @@ class TabsSection extends Component {
         render() {
             return (
                 <div>
-                   <Container>
                        <RowCenter>
                            <TabsStyled defaultActiveKey="home" id="uncontrolled-tab-example">
                                <Tab eventKey="home" title="Simple Bookmarking">
@@ -69,7 +68,6 @@ class TabsSection extends Component {
                                 </Tab>
                            </TabsStyled>
                        </RowCenter>
-                   </Container>
                 </div>
               );
         }

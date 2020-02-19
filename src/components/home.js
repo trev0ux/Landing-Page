@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import image from '../images/illustration-hero.svg';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { Text } from '../styles';
 import { Img } from '../styles';
 import {  ButtonHome, ButtonViolet, Rectangle } from '../styles';
@@ -11,7 +11,6 @@ class Home extends Component {
     render() {
         return (
             <div>
-            <Container>
                 <Row>
                     <Col xs={6}>
                     <Text>
@@ -28,7 +27,6 @@ class Home extends Component {
                     <Rectangle src={ rectangle }></Rectangle>
                     </Col>
                 </Row>
-            </Container>
            </div>
           );
     }
