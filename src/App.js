@@ -3,7 +3,8 @@ import Header from './components/headerComponent/header';
 import Home from './components/home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TabsSection from './components/tabs';
-import {Line, Line2, Line3} from './components/textSection'
+import {Line, Line2, Line3} from './components/textSection';
+import {Ask} from './components/ask';
 import { createGlobalStyle } from "styled-components";
 import Downloads from './components/downloads'
 import { Container } from 'react-bootstrap';
@@ -31,6 +32,7 @@ function App() {
         <Line2 />
          <Downloads />
         <Line3 /> 
+        <Ask />
         </Container>
     </div>
   );

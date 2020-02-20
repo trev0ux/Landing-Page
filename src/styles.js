@@ -23,13 +23,37 @@ export const CardSection = styled(Card)`
     color:#2a2f4d ;
     }
 
-    img{
+    a{
         position: relative;
         right: 18px;
         display: inline-block;
     }
 
 `;
+
+export const Dropdown = styled.div`
+    height: 65px;
+    width: 540px;
+    border-bottom: #dddddd 1px solid;
+    border-top: #dddddd 1px solid;
+    font-size: 18px;
+    color: #2a2f4d;
+    font-weight: 500;
+
+    span{
+        float: left;
+        margin-top: 20px;
+    }
+   span:hover{
+    color: #d96363;
+   }
+
+   a {
+       float: right;
+       margin: 20px;
+   }
+`;
+
 
 
 export const CardText = styled(Card.Text)`

@@ -4,7 +4,7 @@ import chrome from '../images/logo-chrome.svg'
 import firefox from '../images/logo-firefox.svg'
 import opera from '../images/logo-opera.svg'
 import line from '../images/bg-dots.svg'
-import { Row, Col, Container } from 'react-bootstrap';
+import { Col, Container } from 'react-bootstrap';
 import  Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck'
 
@@ -22,7 +22,7 @@ class Downloads extends Component {
                                <Card.Title><h3>Add to Chrome</h3></Card.Title>
                                 <CardText><span>Minimum version 62</span></CardText>
                                 <a><img src={ line }></img></a>
-                                <ButtonAdd><a>Add & Install Extension</a></ButtonAdd>
+                                <ButtonAdd>Add & Install Extension</ButtonAdd>
                                 </Card.Body>
                             </CardSection>
                             </Col>  
@@ -33,7 +33,7 @@ class Downloads extends Component {
                                <Card.Title><h3>Add to Firefox</h3></Card.Title>
                                 <CardText><span>Minimum version 55</span></CardText>
                                 <a><img src={ line }></img></a>
-                                <ButtonAdd><a>Add & Install Extension</a></ButtonAdd>
+                                <ButtonAdd>Add & Install Extension</ButtonAdd>
                                 </Card.Body>
                             </CardSection>
                             </Col>
@@ -44,7 +44,7 @@ class Downloads extends Component {
                                <Card.Title><h3>Add to Opera</h3></Card.Title>
                                 <CardText><span>Minimum version 46</span></CardText>
                                 <a><img src={ line }></img></a>
-                                <ButtonAdd><a>Add & Install Extension</a></ButtonAdd>
+                                <ButtonAdd>Add & Install Extension</ButtonAdd>
                                 </Card.Body>
                             </CardSection>
                             </Col>
