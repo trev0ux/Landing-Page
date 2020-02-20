@@ -34,7 +34,6 @@ export const CardSection = styled(Card)`
 export const Dropdown = styled.div`
     height: 65px;
     width: 540px;
-    border-bottom: #dddddd 1px solid;
     border-top: #dddddd 1px solid;
     font-size: 18px;
     color: #2a2f4d;
@@ -48,12 +47,14 @@ export const Dropdown = styled.div`
     color: #d96363;
    }
 
-   a {
+   button {
        float: right;
-       margin: 20px;
+       border: 0;
+       background: transparent;
+       padding: 16px 5px 16px 5px;
+       cursor: pointer;
    }
 `;
-
 
 
 export const CardText = styled(Card.Text)`
@@ -194,6 +195,13 @@ export const Text = styled.p`
         margin-bottom: 30px;
     }
 `;
+
+export const TextDropdown = styled(Text)`
+       font-size: 18px;
+       padding: 50px 0px 50px 0px;
+       width: 100%;
+
+`; 
 
 
 
