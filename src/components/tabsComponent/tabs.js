@@ -1,10 +1,11 @@
-import { TextTab, RectangleLeft, Img, RowCenter, ButtonTab, TabsStyled } from '../styles';
+import { TextTab, RectangleLeft, ButtonTab, TabsStyled } from './styles';
 import React, { Component } from 'react';
 import { Col, Row, Tab } from 'react-bootstrap';
-import image from '../images/illustration-features-tab-1.svg';
-import image2 from '../images/illustration-features-tab-2.svg';
-import image3 from '../images/illustration-features-tab-3.svg';
-import rectangle from '../images/retangle-left.svg';
+import image from '../../images/illustration-features-tab-1.svg';
+import image2 from '../../images/illustration-features-tab-2.svg';
+import image3 from '../../images/illustration-features-tab-3.svg';
+import rectangle from '../../images/retangle-left.svg';
+import { RowCenter, Img } from '../../global';
 
 
 

@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import image from '../images/illustration-hero.svg';
+import image from '../../images/illustration-hero.svg';
 import { Row, Col } from 'react-bootstrap';
-import { Text } from '../styles';
-import { Img } from '../styles';
-import {  ButtonHome, ButtonViolet, Rectangle } from '../styles';
-import rectangle from '../images/rectangle-bg.svg';
+import { ButtonHome, ButtonViolet, Rectangle } from './styles';
+import rectangle from '../../images/rectangle-bg.svg';
+import { Img, Text } from '../../global';
 
 
 class Home extends Component {

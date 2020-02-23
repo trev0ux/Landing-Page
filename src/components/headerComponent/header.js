@@ -1,6 +1,5 @@
 import React from 'react';
-import { Logo } from '../../styles';
-import { Nav, StyledButton } from '../../styles';
+import { Logo, Nav, StyledButton } from './styles';
 import logo from '../../images/logo-bookmark.svg';
 
 export const Header = () => {
@@ -8,20 +7,20 @@ export const Header = () => {
         <header>
             <Nav>
             <Logo>
-                <img src={ logo }></img>
+                <img src={ logo } alt="logo"></img>
             </Logo>
                 <ul>
                 <li>
                     <StyledButton variant="outline-danger">Login</StyledButton>{' '}
                     </li>
                     <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                     </li>
                     <li>
-                    <a href="#">Pricing</a>
+                    <a href="#pricing">Pricing</a>
                     </li>
                     <li>
-                    <a href="#">Features</a>
+                    <a href="#features">Features</a>
                     </li> 
                 </ul>
             </Nav>
