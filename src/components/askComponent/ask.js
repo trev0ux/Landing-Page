@@ -47,7 +47,7 @@ class Ask1 extends Component {
           if (this.state.dropdown) {
             return (
                 <div>
-                            <Dropdown> 
+                            <Dropdown hover={"25%"}> 
                                <span>What is Bookmark?</span>
                                 <button  onClick={this.textVisibility}><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
                                 <TextDropdown>
@@ -94,7 +94,7 @@ class Ask1 extends Component {
               if (this.state.dropdown) {
                 return (
                     <div>
-                        <Dropdown> 
+                        <Dropdown hover={"30%"}> 
                             <span>How can I request a new browser?</span>
                             <button onClick={this.textVisibility}><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
                             <TextDropdown>
@@ -143,7 +143,7 @@ class Ask1 extends Component {
                   if (this.state.dropdown) {
                     return (
                         <div>
-                            <Dropdown> 
+                            <Dropdown hover={"25%"}> 
                               <span>Is there a mobile app?</span>
                               <button onClick={this.textVisibility}><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
                               <TextDropdown>
@@ -191,7 +191,7 @@ class Ask1 extends Component {
                       if (this.state.dropdown) {
                         return (
                             <div>
-                                <Dropdown> 
+                                <Dropdown hover={"25%"}> 
                                     <span>What about other Chromium browsers?</span>
                                     <button onClick={this.textVisibility}><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
                                     <TextDropdown>

@@ -29,6 +29,7 @@ export const Dropdown = styled.div`
     font-size: 18px;
     color: #2a2f4d;
     font-weight: 400;
+    margin-bottom: ${props => props.hover || "0px"};
 
     span{
         float: left;
@@ -47,6 +48,7 @@ export const Dropdown = styled.div`
        cursor: pointer;
    }
 `;
+
 
 export const TextDropdown = styled(Text)`
        font-size: 18px;
